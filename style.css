@@ -1,6 +1,8 @@
 /* Importa font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
 html{
-	font-family: ;
+	font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -92,7 +94,38 @@ a{
 	padding: 18px 0;
 }
 
-a
++/**************** 
+SECTION IMG TEXT RULES
+****************/
+
+.section-img-text {
+	padding: 90px 0;
+}
+
+.section-img-text .card:not(.row-reverse .card) {
+	padding-top: 1.5rem;
+	padding-left: 3.125rem;
+}
+
+.section-img-text .row-reverse .card {
+	padding-top: 1.5rem;
+	padding-right: 3.125rem;
+	/* padding-left: 0; */
+}
+
+.section-img-text .card__title {
+	font-size: 48px;
+	margin-bottom: 32px;
+}
+
+.section-img-text .card__description {
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+/**************** 
+Header RULES
+****************/
 
 .menu{
 	display: flex;
