@@ -1,3 +1,8 @@
+/* Importa font */
+html{
+	font-family: ;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,6 +13,11 @@ ul,
 ol,
 menu {
 	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: currentColor;
 }
 
 .container {
@@ -89,6 +99,17 @@ a
 	color: beige;
 }
 
+.button{
+	line-height: 45px;
+	padding:0 15px;
+	border-radius: 999px;
+	background-color: white;
+	color: black;
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+
 
 .menu__item a {
 	display: block;
@@ -145,9 +166,29 @@ DEBUG: remove class debug dal body per disabilitarlo */
 }
 
 /* INIZIO SECONDA PARTE */
-.navigazione{
+
+
+.button.button-sm{
+	font-size: 14px;
+	line-height: 32px;
+}
+
+.button.button-black{
+	background-color: #2b3f4e;
+	color:beige;
 
 }
+
+.button.button-violet{
+	background-color: #875b91;
+	color: beige;
+}
+
+.hero{
+	background-image: url(../img/jumbo.png);
+}
+
+
 
 
 
