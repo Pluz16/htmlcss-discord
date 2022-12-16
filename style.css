@@ -41,7 +41,7 @@ menu {
 }
 
 .logo {
-	min-width: 150px;
+	/* min-width: 150px; */
 }
 
 .page-footer {
@@ -77,6 +77,24 @@ menu {
 	background-color: #d3d3d3;
 }
 
+.main-header{
+	background-color: #00008b;
+	padding: 18px 0;
+}
+
+a
+
+.menu{
+	display: flex;
+	color: beige;
+}
+
+
+.menu__item a {
+	display: block;
+	line-height: 34px;
+	padding: 0 20px;
+}
 /* guarda colori elementi 
 DEBUG: remove class debug dal body per disabilitarlo */
 
@@ -87,7 +105,7 @@ DEBUG: remove class debug dal body per disabilitarlo */
 }
 
 .debug .main-content {
-	/* padding: 30px 0; */
+	padding: 30px 0;
 }
 
 .debug .page-footer {
