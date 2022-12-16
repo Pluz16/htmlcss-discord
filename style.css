@@ -157,7 +157,7 @@ HERO RULES
 	background-size: cover;
 	background-position: center bottom;
 	padding: 250px 0 180px 0;
-	color: white;
+	/* color: white; */
 	text-align: center;
 }
 
@@ -280,7 +280,7 @@ DEBUG RULES
 }
 
 .debug .main-content {
-	/* padding: 30px 0; */
+	padding: 30px 0;
 }
 
 .debug .page-footer {
@@ -318,3 +318,5 @@ DEBUG RULES
 .debug .page-footer [class^='col'] {
 	border-color: white;
 }
+
+
