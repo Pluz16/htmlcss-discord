@@ -79,6 +79,7 @@ select {
 
 .col-100 {
 	flex-basis: 100%;
+	text-align: center;
 }
 
 .bg-gray {
@@ -153,7 +154,7 @@ HERO RULES
 ****************/
 
 .hero {
-	background-image: url('../img/jumbo.png');
+	background-image: url('./img/jumbo.png');
 	background-size: cover;
 	background-position: center bottom;
 	padding: 250px 0 180px 0;
@@ -251,7 +252,7 @@ WIDGET STD RULES
 .widget-std .lang-select select {
 	color: currentColor;
 	padding: 0 5px 0 35px;
-	background-image: url('../img/ita.png');
+	background-image: url('./img/ita.png');
 	background-size: auto 100%;
 	background-repeat: no-repeat;
 }
